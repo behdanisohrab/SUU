@@ -1,0 +1,2 @@
+# SUU
+Simple Ubuntu Utility

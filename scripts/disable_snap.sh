@@ -1,6 +1,13 @@
 #!/bin/bash
 
-sudo apt-get remove --purge snapd gnome-software-plugin-snap
+snap remove gtk-common-themes
+snap remove gnome-42-2204
+snap remove firefox
+snap remove snap-store snap-desktop-integration 
+snap remove bare
+snap remove core
+snap remove snapd
+sudo apt-get remove --purge  snapd gnome-software-plugin-snap
 rm -fr ~/snap
 
 echo "Adding nosnap.pref file to /etc/apt/preferences.d"

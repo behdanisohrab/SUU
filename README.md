@@ -5,7 +5,7 @@ SUU or Simple Ubuntu Utility is a bash script that designed to make Ubuntu more 
 
 For run:
 
-'''git clone https://github.com/behdaisohrab/SUU;cd SUU;./main.sh'''
+`git clone https://github.com/behdaisohrab/SUU;cd SUU;./main.sh`
 
 
 ## License

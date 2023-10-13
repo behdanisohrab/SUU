@@ -1,6 +1,7 @@
 #!/bin/bash
 
-sudo apt-get remove --purge snapd gnome-software-plugin-snap
+sudo apt-get remove --purge  snapd gnome-software-plugin-snap
+sudo apt-mark hold snapd
 rm -fr ~/snap
 
 echo "Adding nosnap.pref file to /etc/apt/preferences.d"
